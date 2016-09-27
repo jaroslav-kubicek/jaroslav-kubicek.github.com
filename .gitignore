@@ -8,3 +8,7 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+# IDE metafiles
+.idea/
+jaroslav-kubicek.github.com.iml
