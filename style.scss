@@ -37,6 +37,8 @@ body {
   .container-footer {
     font-style: italic;
     text-align: center;
+    font-size: smaller;
+    color: $gray;
   }
 }
 
@@ -125,6 +127,7 @@ img {
 
 .date {
   font-style: italic;
+  font-size: smaller;
   color: $gray;
 }
 
