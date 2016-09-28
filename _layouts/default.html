@@ -19,23 +19,25 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
+
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name">{{ site.name }}</h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
+
+      {% include entry-footer.html %}
     </div>
 
     <div class="wrapper-footer">
@@ -47,5 +49,7 @@
     </div>
 
     {% include analytics.html %}
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>

@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello,
 
-### More Information
+&nbsp;&nbsp;&nbsp;&nbsp;I'm software developer from Prague, spending the most time 
+in dark corners of JavaScript or exploring exotic languages
+- with the cup of tea.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Get in touch
 
-### Contact me
+<a href="https://twitter.com/kubajzHK" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @kubajzHK</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[email@domain.com](mailto:email@domain.com)
+<a class="github-button" href="https://github.com/jaroslav-kubicek" data-style="mega" aria-label="Follow @jaroslav-kubicek on GitHub">Follow @jaroslav-kubicek</a>
