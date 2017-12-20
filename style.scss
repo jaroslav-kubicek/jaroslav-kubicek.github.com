@@ -18,9 +18,11 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: $white;
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: rgba(0,0,0,.84);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -43,7 +45,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -75,6 +76,11 @@ h4 {
 
 p {
   margin: 15px 0;
+  line-height: 1.58;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: -.003em;
 }
 
 a {
@@ -106,6 +112,11 @@ ol ul, ul ol, ul ul, ol ol {
 
 ul ul, ol ul {
   list-style-type: circle;
+}
+
+li {
+  line-height: 1.58;
+  font-size: 18px;
 }
 
 em, i {
@@ -163,6 +174,10 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+
+  @include mobile {
+    margin-bottom: 0;
+  }
 }
 
 .masthead {
@@ -197,15 +212,15 @@ img {
 
   @include mobile {
     float: none;
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
 }
 
 .site-name {
   margin: 0;
   color: $darkGray;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -223,13 +238,13 @@ img {
 
 nav {
   float: left;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  margin-top: 23px;
   font-size: 18px;
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     display: block;
     font-size: 16px;
   }

@@ -7,8 +7,7 @@ permalink: /about/
 Hello,
 
 &nbsp;&nbsp;&nbsp;&nbsp;I'm software developer from Prague, spending the most time 
-in dark corners of JavaScript or exploring exotic languages
-- with the cup of tea.
+in dark corners of JavaScript or exploring exotic languages - with the cup of tea.
 
 ### Get in touch
 
