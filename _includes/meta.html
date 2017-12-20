@@ -12,7 +12,18 @@
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kubajzHK" />
+
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}" />
+    {% endif %}
+
+    {% if page.image %}
+    <meta name="twitter:image:src" content="{{ page.image | absolute_url }}" />
     {% endif %}

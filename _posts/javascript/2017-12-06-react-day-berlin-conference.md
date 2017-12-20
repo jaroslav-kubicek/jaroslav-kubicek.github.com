@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Top picks from React Day conference
+image: /images/posts/2017-12-react-day-audience.jpg
+description: The main highlights of React.day conference, which took place in Berlin on December 2, 2017.
 ---
 
 The ecosystem around React itself is quite stabilized, there are no such turbulent shifts as in recent years, *declarativeness* rules the code and GraphQL is the real game changer. These are some highlights that would summarize [React.day conference](http://reactday.berlin/), which took place in Berlin on December 2, 2017.
