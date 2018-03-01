@@ -78,5 +78,7 @@ Improvise, adapt, overcome.
 - [A curated list of awesome resources for Digital Nomads](https://github.com/cbovis/awesome-digital-nomads)
 - [When youre a digital nomad the world is your office](https://www.nytimes.com/2018/02/08/magazine/when-youre-a-digital-nomad-the-world-is-your-office.html)
 - [Home is where the phone is (older article from 2000)](https://www.washingtonpost.com/archive/politics/2000/10/17/home-is-where-the-phone-is/3fe48903-a368-4a9a-88ff-6ffcb3b37d35/)
+- [Nine rookie mistakes to avoid when becoming a digital nomad](https://www.theremotenomad.com/blog/9-rookie-mistakes-to-avoid-when-becoming-a-digital-nomad)
+- [Life as digital nomad: my advice and truths](https://www.asthebirdfliesblog.com/wanderful-my-life-as-digital-nomad-my)
 
 
